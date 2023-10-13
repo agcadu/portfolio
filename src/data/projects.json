@@ -1,42 +1,86 @@
 [
   {
-    "title": "Project A",
+    "title": "SpringBootKeycloak",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Aplicación Spring boot con integración y gestión de usuarios con keycloak.",
+    "skills": ["Spring-boot", "Keycloak", "PostgreSQL"],
+    "source": "https://github.com/agcadu/SpringBootKeycloak"
   },
   {
-    "title": "Project B",
+    "title": "SpringBootMail",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Aplicación para el envió de emails con Spring.",
+    "skills": ["Spring-boot", "Mail"],
+    "source": "https://github.com/agcadu/SpringBootMail"
   },
   {
-    "title": "Project B",
+    "title": "SpringBootKafka",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Ejemplo de dos microservicios Spring utilizando Kafka para la comunicación entre ellos.",
+    "skills": ["Spring-boot", "Kafka", "PostgreSQL"],
+    "source": "https://github.com/agcadu/SpringBootKafka"
   },
   {
-    "title": "Project B",
+    "title": "SpringSecurityJWT",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Aplicación implementando Spring Security y JWT",
+    "skills": ["Spring-boot", "Spring-security", "JWT", "PostgreSQL"],
+    "source": "https://github.com/agcadu/SpringSecurityJWT"
   },
   {
-    "title": "Project C",
+    "title": "inventario-back",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Aplicación Api Rest Spring-boot para control de inventarios",
+    "skills": ["Spring-boot", "Mockito", "Apache POI", "PostgreSQL"],
+    "source": "https://github.com/agcadu/inventario-back"
+  },
+  {
+    "title": "SpringBatch-Chunk",
+    "imageSrc": "projects/project.png",
+    "description": "Aplicación Spring Batch con metodo chunk",
+    "skills": ["Spring-batch", "PostgreSQL"],
+    "source": "https://github.com/agcadu/SpringBatch-Chunk"
+  },
+  {
+    "title": "SpringBatch-Tasklet",
+    "imageSrc": "projects/project.png",
+    "description": "Aplicación Spring Batch con metodo tasklet",
+    "skills": ["Spring-boot", "Spring-batch", "PostgreSQL"],
+    "source": "https://github.com/agcadu/SpringBatch-Chunk"
+  },
+  {
+    "title": "Tres-en-raya-Sockets-Multihilo",
+    "imageSrc": "projects/project.png",
+    "description": "Juego del tres en raya con Java",
+    "skills": ["Java", "Sockets", "Multihilo", "Java-Swing"],
+    "source": "https://github.com/agcadu/Tres-en-raya-Sockets-Multihilo"
+  },
+  {
+    "title": "Spring-Boot-Graphql",
+    "imageSrc": "projects/project.png",
+    "description": "Aplicación Srping Boot con Graphql",
+    "skills": ["Spring-boot", "Graphql", "PostgreSQL"],
+    "source": "https://github.com/agcadu/SpringSecurityJWT"
+  },
+  {
+    "title": "SprinBootSoap",
+    "imageSrc": "projects/project.png",
+    "description": "Aplicación Spring boot que consume API Soap",
+    "skills": ["Spring-boot", "SOAP"],
+    "source": "https://github.com/agcadu/SprinBoot-Soap-Cliente"
+  },
+  {
+    "title": "LLauHome",
+    "imageSrc": "projects/project.png",
+    "description": "Aplicación React-Native de anuncios de compraventa",
+    "skills": ["React-Native", "Firebase", "Expo"],
+    "source": "https://github.com/agcadu/Llauhome"
+  },
+  {
+    "title": "portfolio",
+    "imageSrc": "projects/project.png",
+    "description": "Portfolio personal construido con React",
+    "skills": ["React", "Vite"],
+    "source": "https://github.com/agcadu/portfolio"
   }
 ]
