@@ -21,14 +21,17 @@
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 50px;
-  padding-left: px;
+  padding-left: 60px;
+
+  
 }
 
 .skills {
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 37px;
+  
 }
 
 .skill {
@@ -46,7 +49,16 @@
   justify-content: center;
   width: 120px;
   height: 120px;
+  background-image: linear-gradient(
+    09deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: transform 0.3s ease-in-out;
+}
 
+.skillImageContainer:hover {
+  transform: scale(1.05);
 }
 
 .skillImageContainer img {
@@ -54,7 +66,7 @@
 }
 
 .skill p {
-  font-size: 25px;
+  font-size: 20px;
   font-family: var(--font-roboto);
   font-weight: 500;
 }

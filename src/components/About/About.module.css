@@ -17,17 +17,16 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .content {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 50px;
 }
 
-.aboutImage {
-  width: 35%;
-}
 
 .aboutItems {
   color: var(--color-text);
@@ -77,16 +76,5 @@
     flex-direction: column;
   }
 
-  .aboutImage {
-    display: none;
-
-    .aboutItems {
-      margin-top: 29px;
-    }
-
-    .aboutItem {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
+  
 }

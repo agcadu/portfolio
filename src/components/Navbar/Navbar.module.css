@@ -21,6 +21,10 @@
   display: flex;
 }
 
+.menuBtn {
+  display: none;  
+}
+
 .menuItems {
   display: flex;
   gap: 47px;
@@ -32,6 +36,24 @@
   color: var(--color-text);
   text-decoration: none;
 }
+
+@keyframes flash {
+  0% { background-position: 100%; }
+  100% { background-position: 0; }
+}
+
+.menuItems li {
+  list-style-type: none;
+  background: linear-gradient(90deg, transparent 50%, rgba(25, 55, 109, 1) 50%);
+  background-size: 200% 100%;
+}
+
+.menuItems li:hover {
+  animation: flash 1s ease-out 1; 
+  color: rgba(25, 55, 109, 1); 
+}
+
+
 
 @media screen and (max-width: 830px) {
   .navbar {
@@ -49,7 +71,7 @@
     z-index: 3;
   }
 
-  menuBtn {
+  .menuBtn {
     display: block;
     cursor: pointer;
   }
