@@ -10,7 +10,7 @@ export const Header = () => {
         <p className={styles.description}>
         Soy un apasionado desarrollador full-stack, especializado en crear experiencias dinámicas con React en el frontend y potenciar la lógica del negocio usando Spring en el backend.
         </p>
-        <a href="mailto:agcadu@gmail.com" className={styles.contactBtn}>Currículum</a>
+        <a href="/AgustinCasaCV.pdf" className={styles.contactBtn} download>Currículum</a>
       </div>
       <img src={getImageUrl("header/Image.png")} alt="Mi Imagen" className={styles.image}/>
       <div className={styles.topBlur} />
