@@ -27,7 +27,6 @@
   gap: 50px;
 }
 
-
 .aboutItems {
   color: var(--color-text);
   display: flex;
@@ -76,5 +75,16 @@
     flex-direction: column;
   }
 
-  
+  .aboutImage {
+    display: none;
+
+    .aboutItems {
+      margin-top: 29px;
+    }
+
+    .aboutItem {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }

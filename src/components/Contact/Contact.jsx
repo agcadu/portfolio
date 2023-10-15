@@ -5,8 +5,7 @@ import styles from './Contact.module.css'
 export const Contact = () => {
   return (
     <footer id='contact' className={styles.container}>
-        <div className={styles.text}>
-            
+        <div className={styles.text}>            
             <p>¡PONGÁMONOS EN CONTACTO!</p>
         </div>
         <ul className={styles.links}>

@@ -49,8 +49,9 @@
 }
 
 .menuItems li:hover {
-  animation: flash 1s ease-out 1; 
-  color: rgba(25, 55, 109, 1); 
+  animation: flash 0.5s ease-out 1;
+  color: rgba(25, 55, 109, 1);
+  -webkit-animation: flash 0.2s ease-out 1;
 }
 
 

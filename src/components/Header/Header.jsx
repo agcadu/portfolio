@@ -12,7 +12,7 @@ export const Header = () => {
         </p>
         <a href="mailto:agcadu@gmail.com" className={styles.contactBtn}>Currículum</a>
       </div>
-      <img src={getImageUrl("hero/heroImage.png")} alt="Mi Imagen" className={styles.image}/>
+      <img src={getImageUrl("header/Image.png")} alt="Mi Imagen" className={styles.image}/>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </header>

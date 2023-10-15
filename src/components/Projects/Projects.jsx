@@ -1,9 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 import styles from "./Projects.module.css";
 
 export const Projects = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextProject = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+  };
+
+  const prevProject = () => {
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + projects.length) % projects.length
+    );
+  };
+
+  const getVisibleProjectIndices = (currentIndex) => {
+    const totalProjects = projects.length;
+    return Array.from(
+      { length: 4 },
+      (_, i) => (currentIndex + i) % totalProjects
+    );
+  };
+
+  const visibleProjectIndices = getVisibleProjectIndices(currentIndex);
+
   return (
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Proyectos</h2>
@@ -15,9 +37,43 @@ export const Projects = () => {
         facilitar las pruebas de API.
       </p>
       <div className={styles.projects}>
-        {projects.map((project, id) => {
-          return <ProjectCard key={id} project={project} />;
-        })}
+        <button onClick={prevProject} className={styles.arrow}>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 6L9 12L15 18"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+        {visibleProjectIndices.map((index) => (
+          <ProjectCard key={index} project={projects[index]} />
+        ))}
+        <button onClick={nextProject} className={styles.arrow}>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 6L15 12L9 18"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
       </div>
     </section>
   );
