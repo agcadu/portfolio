@@ -1,10 +1,30 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 import styles from "./Projects.module.css";
 
 export const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [visibleCount, setVisibleCount] = useState(4);
+
+  const updateVisibleCount = () => {
+    if (window.innerWidth <= 576) {
+      setVisibleCount(1);
+    } else if (window.innerWidth <= 768) {
+      setVisibleCount(2);
+    } else {
+      setVisibleCount(4);
+    }
+  };
+
+  useEffect(() => {
+    updateVisibleCount();
+    window.addEventListener("resize", updateVisibleCount);
+
+    return () => {
+      window.removeEventListener("resize", updateVisibleCount);
+    };
+  }, []);
 
   const nextProject = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
@@ -19,7 +39,7 @@ export const Projects = () => {
   const getVisibleProjectIndices = (currentIndex) => {
     const totalProjects = projects.length;
     return Array.from(
-      { length: 4 },
+      { length: visibleCount },
       (_, i) => (currentIndex + i) % totalProjects
     );
   };
@@ -78,3 +98,4 @@ export const Projects = () => {
     </section>
   );
 };
+

@@ -2,14 +2,15 @@
 
 .container {
     position: relative;
-    display: flex  ;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    margin-top: 3rem;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
     gap: 20px;
+    transition: margin 0.3s ease;
 }
 
 .content {
@@ -114,10 +115,26 @@
 
 @media screen and (max-width: 830px) {
     .container {
-        flex-direction: column-reverse;        
+        flex-direction: column-reverse;
+        margin-left: 5%; 
+        margin-right: 5%; 
     }
 
     .content {
-        align-items: center;        
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 1.5rem;
+        margin-right: 0; 
+    }
+
+    .image {
+        width: 100%;
     }
 }

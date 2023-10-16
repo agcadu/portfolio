@@ -9,6 +9,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  transition: padding 0.3s ease, margin 0.3s ease;
 }
 
 .title {
@@ -48,7 +49,7 @@
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
-  transition: 0.5s;
+  transition: 0.5s, background-size 0.3s ease-in-out; 
 }
 
 .aboutItem:hover {
@@ -67,24 +68,20 @@
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 20px; 
+    margin: 10px;
   }
 
   .content {
     flex-direction: column;
   }
 
-  .aboutImage {
-    display: none;
+  .aboutItems {
+    margin-top: 29px; 
+  }
 
-    .aboutItems {
-      margin-top: 29px;
-    }
-
-    .aboutItem {
-      padding-left: 0;
-      padding-right: 0;
-    }
+  .aboutItem {
+    padding: 10px; 
   }
 }
+

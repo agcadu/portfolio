@@ -64,7 +64,7 @@
   },
   {
     "title": "SprinBootSoap",
-    "imageSrc": "projects/soap.svg",
+    "imageSrc": "projects/soap.png",
     "description": "Aplicación Spring boot que consume API Soap",
     "skills": ["Spring-boot", "SOAP"],
     "source": "https://github.com/agcadu/SprinBoot-Soap-Cliente"
