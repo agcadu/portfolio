@@ -8,9 +8,9 @@ export const Projects = () => {
   const [visibleCount, setVisibleCount] = useState(4);
 
   const updateVisibleCount = () => {
-    if (window.innerWidth <= 576) {
+    if (window.innerWidth <= 900) {
       setVisibleCount(1);
-    } else if (window.innerWidth <= 768) {
+    } else if (window.innerWidth <= 1686) {
       setVisibleCount(2);
     } else {
       setVisibleCount(4);

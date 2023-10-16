@@ -35,30 +35,36 @@
 
 .arrow {
   border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #1d70ff4d 100%);
+  background: var(--color-primary);
   height: 30px;
   width: 30px;
   color: var(--color-text);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  -ms-transition: transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
+  position: relative;
 }
 
 .arrow:hover {
   transform: scale(1.30);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 899) {
   .projects {
-    flex-direction: column;
+    flex-direction: row;
   }
+
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 900) and (max-width: 1685) {
   .projects {
     flex-direction: row;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1686) {
   .projects {
     flex-direction: row;
   }
