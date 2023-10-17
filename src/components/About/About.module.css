@@ -83,5 +83,13 @@
   .aboutItem {
     padding: 10px; 
   }
+
+  .aboutItem h3 {
+    font-size: 20px; 
+  }
+
+  .aboutItem p {
+    font-size: 13px; 
+  }
 }
 

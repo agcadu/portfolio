@@ -51,9 +51,13 @@
   transform: scale(1.30);
 }
 
-@media (max-width: 899) {
+@media screen and (max-width: 830px)  {
   .projects {
     flex-direction: row;
+  }
+
+  .description {
+    font-size: 10px;
   }
 
 }

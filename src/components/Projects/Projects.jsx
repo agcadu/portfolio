@@ -10,8 +10,10 @@ export const Projects = () => {
   const updateVisibleCount = () => {
     if (window.innerWidth <= 900) {
       setVisibleCount(1);
-    } else if (window.innerWidth <= 1686) {
+    } else if (window.innerWidth <= 1370) {
       setVisibleCount(2);
+    } else if (window.innerWidth <= 1686) {
+      setVisibleCount(3);
     } else {
       setVisibleCount(4);
     }
@@ -98,4 +100,3 @@ export const Projects = () => {
     </section>
   );
 };
-
