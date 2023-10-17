@@ -25,8 +25,8 @@
     "imageSrc": "projects/graphql.png",
     "description": "Aplicación Srping Boot con Graphql",
     "skills": ["Spring-boot", "Graphql", "PostgreSQL"],
-    "source": "https://github.com/agcadu/SpringSecurityJWT"
-  },  
+    "source": "https://github.com/agcadu/Spring-Boot-Graphql"
+  },
   {
     "title": "SpringBootKeycloak",
     "imageSrc": "projects/keycloak.png",
@@ -37,14 +37,14 @@
   {
     "title": "SpringBatch-Chunk",
     "imageSrc": "projects/spring-batch.png",
-    "description": "Aplicación Spring Batch con metodo chunk",
+    "description": "Aplicación Spring Batch con método chunk",
     "skills": ["Spring-batch", "PostgreSQL"],
     "source": "https://github.com/agcadu/SpringBatch-Chunk"
   },
   {
     "title": "SpringBatch-Tasklet",
     "imageSrc": "projects/spring-batch.png",
-    "description": "Aplicación Spring Batch con metodo tasklet",
+    "description": "Aplicación Spring Batch con método tasklet",
     "skills": ["Spring-boot", "Spring-batch", "PostgreSQL"],
     "source": "https://github.com/agcadu/SpringBatch-Tasklet"
   },
