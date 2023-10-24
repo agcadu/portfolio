@@ -8,7 +8,7 @@ export const Header = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hola, me llamo Agustín</h1>
         <p className={styles.description}>
-        Soy un apasionado desarrollador full-stack, especializado en crear experiencias dinámicas con React en el frontend y potenciar la lógica del negocio usando Spring en el backend.
+        Soy un apasionado desarrollador, especializado en crear experiencias dinámicas con React en el frontend y desarrollar la lógica del negocio usando Spring en el backend.
         </p>
         <a href="/AgustinCasaCV.pdf" className={styles.contactBtn} download>Currículum</a>
       </div>
