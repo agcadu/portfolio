@@ -77,8 +77,12 @@
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px);
-    }
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+}
     100% {
         transform: translateY(0px);
     }
@@ -135,6 +139,6 @@
     }
 
     .image {
-        width: 100%;
+        width: 70%;
     }
 }
