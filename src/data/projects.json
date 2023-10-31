@@ -7,6 +7,13 @@
     "source": "https://github.com/agcadu/SpringBootKafka"
   },
   {
+    "title": "SpringMicroservices",
+    "imageSrc": "projects/microservices.png",
+    "description": "Ejemplo de dos microservicios Spring utilizando Spring Cloud.",
+    "skills": ["Spring-boot", "Spring Cloud", "Spring Eureka", "PostgreSQL"],
+    "source": "hhttps://github.com/agcadu/SpringMicroservices.git"
+  },
+  {
     "title": "SpringSecurityJWT",
     "imageSrc": "projects/springSecurity.png",
     "description": "Aplicación implementando Spring Security y JWT",
