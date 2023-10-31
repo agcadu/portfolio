@@ -10,7 +10,7 @@
     "title": "SpringMicroservices",
     "imageSrc": "projects/microservices.png",
     "description": "Ejemplo de dos microservicios Spring utilizando Spring Cloud.",
-    "skills": ["Spring-boot", "Spring Cloud", "Spring Eureka", "PostgreSQL"],
+    "skills": ["Spring-boot", "Spring Cloud", "Spring Eureka", "PostgreSQL", "MySQL"],
     "source": "hhttps://github.com/agcadu/SpringMicroservices.git"
   },
   {
