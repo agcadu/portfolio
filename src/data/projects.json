@@ -1,5 +1,12 @@
 [
   {
+    "title": "SpringHexagonal",
+    "imageSrc": "projects/hexagonal.png",
+    "description": "Ejemplo de aplicación API REST utilizando arquitectura Hexagonal.",
+    "skills": ["Spring-boot", "Hexagonal", "PostgreSQL"],
+    "source": "https://github.com/agcadu/SpringHexagonal"
+  },
+  {
     "title": "SpringBootKafka",
     "imageSrc": "projects/kafka.png",
     "description": "Ejemplo de dos microservicios Spring utilizando Kafka para la comunicación entre ellos.",
@@ -11,7 +18,7 @@
     "imageSrc": "projects/microservices.png",
     "description": "Ejemplo de dos microservicios Spring utilizando Spring Cloud.",
     "skills": ["Spring-boot", "Spring Cloud", "Spring Eureka", "PostgreSQL", "MySQL"],
-    "source": "hhttps://github.com/agcadu/SpringMicroservices.git"
+    "source": "hhttps://github.com/agcadu/SpringMicroservices"
   },
   {
     "title": "SpringSecurityJWT",
