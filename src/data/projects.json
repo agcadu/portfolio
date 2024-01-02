@@ -18,7 +18,7 @@
     "imageSrc": "projects/microservices.png",
     "description": "Ejemplo de dos microservicios Spring utilizando Spring Cloud.",
     "skills": ["Spring-boot", "Spring Cloud", "Spring Eureka", "PostgreSQL", "MySQL"],
-    "source": "hhttps://github.com/agcadu/SpringMicroservices"
+    "source": "https://github.com/agcadu/SpringMicroservices"
   },
   {
     "title": "SpringSecurityJWT",
@@ -47,6 +47,13 @@
     "description": "Aplicación Spring boot con integración y gestión de usuarios con keycloak.",
     "skills": ["Spring-boot", "Keycloak", "PostgreSQL"],
     "source": "https://github.com/agcadu/SpringBootKeycloak"
+  },
+  {
+    "title": "SpringBatch-Flow",
+    "imageSrc": "projects/spring-batch.png",
+    "description": "Aplicación Spring Batch condicional",
+    "skills": ["Spring-boot","Spring-batch", "PostgreSQL"],
+    "source": "https://github.com/agcadu/SpringBatchFlow"
   },
   {
     "title": "SpringBatch-Chunk",
